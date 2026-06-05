@@ -7,7 +7,6 @@ A Perl script for manage a file populated by default. Below all the script optio
 - `-d`, `--del` -> to remove definitively the file <br>
 - `-r`, `--re` -> to read the file <br>
 - `-C`, `--cp` -> to copy the content of the first file into the second file
-<hr>
 
 ### USAGE
-&nbsp;&nbsp; ``` ./file_operations.pl [option] [file] ```
+``` ./file_operations.pl [option] [file] ```
