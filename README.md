@@ -17,6 +17,7 @@ Perl script that performs basic file management operations on a text file.
 ./file_operations.pl [option] [filename]
 
   option:
+
     - '-c', '--cr' -> to create the file and populated it by default
     - '-u', '--up' -> to transform the file content in upper case
     - '-t', '--tr' -> to truncate the file content
