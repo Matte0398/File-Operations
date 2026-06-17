@@ -13,22 +13,51 @@ Perl script that performs basic file management operations on a text file.
 
 ## Usage
 
-```bash
+``` perl
 ./file_operations.pl [option] [filename]
+```
 
-  option:
+#### Option:
 
-    - '-c', '--cr' -> to create the file and populated it by default
-    - '-u', '--up' -> to transform the file content in upper case
-    - '-t', '--tr' -> to truncate the file content
-    - '-d', '--del' -> to remove definitively the file
-    - '-r', '--re' -> to read the file
-    - '-C', '--cp' -> to copy the content of the first file into the second file
+To create the file and populated it by default:
+
+``` text
+-c, --cr
+```
+
+To transform the file content in upper case:
+
+``` text
+-u, --up
+```
+
+To truncate the file content:
+
+``` text
+-t, --tr
+```
+
+To remove definitively the file:
+
+``` text
+-d, --del
+```
+
+To read the file:
+
+ ``` text
+-r, --re
+```
+
+To copy the content of the first file into the second file:
+
+ ``` text
+-C, --cp
 ```
 
 ## Example
 
-```
+``` perl
 ./file_operations.pl --cr test.txt
 ./file_operations.pl -u test.txt
 ./file_operations.pl -r test.txt
